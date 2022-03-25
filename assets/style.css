@@ -1,0 +1,52 @@
+:root {
+  --cor1: #363b75;
+  --cor2: #bbc0f7;
+  --cor3: #707bf5;
+  --cor4: #595b75;
+  --cor5: #5962c2;
+  --cor6: #75562f;
+  --cor7: #f7d5ad;
+  --cor8: #f5b362;
+  --cor9: #756552;
+  --cor10: #c28e4d;
+
+  --cor11: #fff;
+  --cor12: #fcf5eb;
+  --cor13: #101010;
+  --cor14: #252525;
+}
+
+* {
+}
+
+body {
+  background-color: #252525;
+  color: #fff;
+}
+
+.primary-bg-color {
+  background-color: #252525;
+}
+
+.secondary-bg-color {
+  background-color: #bbc0f7;
+}
+
+.light-bg-color {
+  background-color: #fff;
+}
+
+.dark-bg-color {
+  background-color: #101010;
+}
+.primary-color {
+  color: #707bf5;
+}
+
+.secondary-color {
+  color: #252525;
+}
+
+.light-color {
+  color: #fcf5eb;
+}
