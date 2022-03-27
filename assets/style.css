@@ -50,3 +50,37 @@ body {
 .light-color {
   color: #fcf5eb;
 }
+
+/* NAV */
+#navbar .navbar-nav {
+  flex-direction: row;
+  justify-content: end;
+}
+
+#navbar .navbar-nav li {
+  margin-left: 1em;
+}
+
+#navbar a,
+#navbar button {
+  color: #fcf5eb;
+}
+
+#navbar li {
+  position: relative;
+}
+
+#navbar i {
+  font-size: 20px;
+}
+
+#navbar span{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  
+}
+/* NAV */
