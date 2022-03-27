@@ -74,7 +74,7 @@ body {
   font-size: 20px;
 }
 
-#navbar span{
+#navbar span {
   position: absolute;
   top: -8px;
   right: -8px;
@@ -83,19 +83,41 @@ body {
   border-radius: 50%;
   background-color: #5962c2;
   text-align: center;
-   
 }
 
-#bag-item span{
+#bag-item span {
   left: 20px;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-weight: 700;
   width: 100%;
   text-align: center;
+}
 
+#navbar-items{
+  justify-content: space-between;
+}
+
+#search-form{
+  width: 100%;
+  margin: 2em;
 }
 
 
+
+
 /* NAV */
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    min-width: 80%;
+    display: flex;
+  }
+}
