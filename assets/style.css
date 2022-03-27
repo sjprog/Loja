@@ -101,9 +101,16 @@ body {
 
 #search-form{
   width: 100%;
-  margin: 2em;
+  margin: 2em 0;
+ 
+}
+#search-form input{
+   background-color: transparent;
+  border: none;
+  color: #fff;
 }
 
+#
 
 
 
@@ -120,4 +127,9 @@ body {
     min-width: 80%;
     display: flex;
   }
+}
+@media (min-width: 768px) {
+  #search-form {
+    min-width: 50%;
+    margin: 0;
 }
