@@ -95,41 +95,45 @@ body {
   text-align: center;
 }
 
-#navbar-items{
+#navbar-items {
   justify-content: space-between;
 }
 
-#search-form{
+#search-form {
   width: 100%;
   margin: 2em 0;
- 
+  border: 2px solid #bbc0f7;
+  border-radius: 3px;
+  padding: 5px 15px;
 }
-#search-form input{
-   background-color: transparent;
+
+#search-form input {
+  background-color: transparent;
   border: none;
   color: #fff;
 }
 
-#
+#search-form input:focus{
+  box-shadow: none;
+}
 
-
-
+#search-form input::placeholder{
+  color: #fff;
+}
 /* NAV */
 
 @media (min-width: 768px) {
   .navbar-brand {
     text-align: left;
   }
-}
 
-@media (min-width: 768px) {
   .navbar-brand {
     min-width: 80%;
     display: flex;
   }
-}
-@media (min-width: 768px) {
+
   #search-form {
     min-width: 50%;
     margin: 0;
+  }
 }
