@@ -102,7 +102,7 @@ body {
 #search-form {
   width: 100%;
   margin: 2em 0;
-  border: 2px solid #bbc0f7;
+  border: 1px solid #bbc0f7;
   border-radius: 3px;
   padding: 5px 15px;
 }
@@ -113,27 +113,29 @@ body {
   color: #fff;
 }
 
-#search-form input:focus{
+#search-form input:focus {
   box-shadow: none;
 }
 
-#search-form input::placeholder{
+#search-form input::placeholder {
   color: #fff;
 }
 /* NAV */
 
+
+
 @media (min-width: 768px) {
-  .navbar-brand {
-    text-align: left;
+  #search-form {
+    min-width: 50%;
+    margin: 0;
   }
 
-  .navbar-brand {
+  #navbar-items {
     min-width: 80%;
     display: flex;
   }
 
-  #search-form {
-    min-width: 50%;
-    margin: 0;
+  .navbar-brand {
+    text-align: left;
   }
 }
