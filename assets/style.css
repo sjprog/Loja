@@ -122,11 +122,21 @@ body {
 }
 /* NAV */
 
+/* bottom navbar */
+#bottom-navbar-container .container{
+  justify-content: flex-end;
+}
+
+#bottom-navbar-container a{
+  font-weight: 600;
+  color: #363b75;
+}
+
 
 
 @media (min-width: 768px) {
   #search-form {
-    min-width: 50%;
+    width: 50%;
     margin: 0;
   }
 
