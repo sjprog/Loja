@@ -123,40 +123,49 @@ body {
 /* NAV */
 
 /* bottom navbar */
-#bottom-navbar-container .container{
+#bottom-navbar-container .container {
   justify-content: flex-end;
 }
 
-#bottom-navbar-container a{
+#bottom-navbar-container a {
   font-weight: 600;
   color: #363b75;
 }
 
-.navbar-toogler{
+.navbar-toogler {
   font-size: 1.5em;
 }
 
-
-
 /* banners */
 
-#banners-container{
+#banners-container {
   padding: 0;
 }
-.carousel-caption{
+.carousel-caption {
   bottom: 5em;
   padding: 1em;
   left: 12%;
   right: 12%;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
   font-size: 1.8em;
 }
 
+#mini-banners {
+  margin-top: -3em;
+  z-index: 10;
+}
 
-
-
+#mini-banner .col-12 {
+  z-index: 1;
+  height: 300px;
+  padding: 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 @media (min-width: 768px) {
   #search-form {
@@ -174,16 +183,48 @@ body {
   }
 
   #slider .carousel-item,
-  #slider img{
+  #slider img {
     height: 600px;
   }
 
-  .carousel-caption{
+  .carousel-caption {
     left: 23%;
     right: 23%;
   }
 
-  .carousel-caption h5{
+  .carousel-caption h5 {
     font-size: 4em;
   }
+
+  #mini-banner .col-12 {
+    max-width: 30%;
+  }
+  #mini-banner .col-12 h2 {
+    text-transform: uppercase;
+    max-width: 50px;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1em;
+  }
+#mini-banner .col-12 img{
+  height: 220px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+#mini-banner .col-12 a{
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8em;
+  transition: 0.5s;
+}
+
+#mini-banner .col-12 a:hover{
+  color: #101010;
+
+}
+
+#mini-banner #minibanner-1 a:hover
+
 }
