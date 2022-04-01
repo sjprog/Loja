@@ -258,9 +258,18 @@ margin: 2em auto;
 
 #bottom-banner .offer-subtitle,
 #bottom-banner h2{
+  font-size:35px ;
   text-transform: uppercase;
   font-weight: bold;
 
+}
+
+#bottom-banner p{
+  font-size:30px;
+  
+}
+#presen{
+  color: #f5b362;
 }
 
 #bottom-banner .btn{
@@ -270,7 +279,7 @@ margin: 2em auto;
 }
 
 #bottom-banner img{
-  max-width: 175px;
+  max-width: 275px;
 }
 
 @media (min-width: 768px) {
