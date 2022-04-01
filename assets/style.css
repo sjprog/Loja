@@ -157,7 +157,7 @@ body {
   z-index: 10;
 }
 
-#mini-banner .col-12 {
+#mini-banners .col-12 {
   z-index: 1;
   height: 300px;
   padding: 1.5em;
@@ -165,6 +165,42 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#mini-banners .col-12 h2 {
+  text-transform: uppercase;
+  max-width: 50px;
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+#mini-banners .col-12 img {
+  height: 220px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+#mini-banners .col-12 a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8em;
+  transition: 0.5s;
+}
+
+#mini-banners .col-12 a:hover {
+  color: #101010;
+
+}
+
+#mini-banners #mini-banner-1 a:hover,
+#mini-banners #mini-banner-3 a:hover {
+  color: #c28e4d;
+}
+
+#mini-banners #mini-banner-3 a {
+  color: #101010;
 }
 
 @media (min-width: 768px) {
@@ -199,38 +235,4 @@ body {
   #mini-banners .col-12 {
     max-width: 30%;
   }
-  #mini-banners .col-12 h2 {
-    text-transform: uppercase;
-    max-width: 50px;
-    font-size: 2.2em;
-    font-weight: 700;
-    line-height: 1em;
-  }
-#mini-banners .col-12 img{
-  height: 220px;
-  position: absolute;
-  right: 1em;
-  bottom: 1em;
-}
-
-#mini-banners .col-12 a{
-  font-weight: bold;
-  color: #fff;
-  font-size: 0.8em;
-  transition: 0.5s;
-}
-
-#mini-banners .col-12 a:hover{
-  color: #101010;
-
-}
-
-#mini-banners #mini-banners-1 a:hover{
-  color: #c28e4d;
-}
-
-#mini-banners #mini-banners-3 a:hover{
-color: #75562f;
-}
-
 }
