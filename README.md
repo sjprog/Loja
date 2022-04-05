@@ -6,3 +6,5 @@
 () Adicionar o conteúdo da loja.
 () Terminar a parte Front end.
 () Alimentar o projeto com diversos produtos
+
+https://sjprog.github.io/Loja/
