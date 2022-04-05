@@ -54,7 +54,7 @@ body {
 /* NAV */
 #navbar .navbar-nav {
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
 }
 
 #navbar .navbar-nav li {
@@ -83,6 +83,7 @@ body {
   border-radius: 50%;
   background-color: #5962c2;
   text-align: center;
+  
 }
 
 #bag-item span {
@@ -93,16 +94,19 @@ body {
   font-weight: 700;
   width: 100%;
   text-align: center;
+  
 }
 
 #navbar-items {
   justify-content: space-between;
+  
 }
 
 #search-form,
 #news-form {
   width: 100%;
   margin: 2em 0;
+  
   
 }
 
@@ -111,6 +115,7 @@ body {
   border: 2px solid #bbc0f7;
   border-radius: 3px;
   padding: 5px 15px;
+  
 }
 
 #search-form input,
@@ -128,6 +133,7 @@ body {
 #search-form input::placeholder,
 #news-form input::placeholder {
   color: #fff;
+  
 }
 /* NAV */
 
@@ -139,16 +145,19 @@ body {
 #bottom-navbar-container a {
   font-weight: 600;
   color: #363b75;
+  
 }
 
 .navbar-toogler {
   font-size: 1.5em;
+  
 }
 
 /* banners */
 
 #banners-container {
   padding: 0;
+  
 }
 .carousel-caption {
   bottom: 5em;
