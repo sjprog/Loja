@@ -138,13 +138,12 @@ body {
 /* NAV */
 
 /* bottom navbar */
-#bottom-navbar-container .container {
-  justify-content: flex-end;
-  
+#bottom-navbar-container .container { 
+   
 }
 
 #bottom-navbar-container a {
-  font-weight: 600;  
+  font-weight: 500;  
   color: #fff;
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
