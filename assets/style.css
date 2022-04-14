@@ -202,7 +202,7 @@ body {
 }
 
 #mini-banners .col-12 img {
-  height: 297px;
+  height: 247px;
   position: absolute;
   right: 1em;
   bottom: 0em;
@@ -309,7 +309,7 @@ margin: 2em auto;
 }
 
 #bottom-banner img{
-  max-width: 375px;
+  max-width: 315px;
  
   
 }
